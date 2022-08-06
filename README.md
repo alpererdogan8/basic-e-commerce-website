@@ -16,5 +16,9 @@ Start   -> `npm start || npm run watch (Backend)`
 
 ## Main Page
 ![Main Page](https://github.com/alpererdogan8/basic-e-commerce-website/blob/main/readme-images/main-page.png?raw=true)
+
+---
+
+
 ## My Cart
 ![My Cart](https://github.com/alpererdogan8/basic-e-commerce-website/blob/main/readme-images/my-cart.png?raw=true)
