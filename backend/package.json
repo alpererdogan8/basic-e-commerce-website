@@ -1,0 +1,32 @@
+{
+  "name": "e-commerce",
+  "version": "0.0.1",
+  "description": "simple e-commerce site",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js"
+  },
+  "keywords": [
+    "cart",
+    "e-commerce"
+  ],
+  "author": "Alper Erdoğan <alpererdogan8@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "express-session": "^1.17.3",
+    "mongoose": "^6.1.6",
+    "mongoose-autopopulate": "^0.16.1",
+    "morgan": "^1.10.0",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose-email": "^0.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
