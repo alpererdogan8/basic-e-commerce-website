@@ -1,5 +1,5 @@
 # basic-e-commerce-website
-A simple website developed with react, redux, mongodb, node.js, express.js
+A simple website developed with react, redux, tailwindcss, mongodb, node.js, express.js
 
 Frontend & Backend
 
