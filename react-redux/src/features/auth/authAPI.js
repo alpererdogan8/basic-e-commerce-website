@@ -30,6 +30,5 @@ export const asyncAuthLogoutAPI = createAsyncThunk('auth/logout', async () => {
 
 export const asyncAuthUserAPI = createAsyncThunk('auth/getUser', async () => {
   const getUser = await axios.get('/api/v1/auth/user')
-  console.log('Login User: ', getUser.data)
   return getUser.data
 })
