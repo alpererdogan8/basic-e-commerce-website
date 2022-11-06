@@ -21,7 +21,7 @@ const Cart = ({ _id, img, productName, price, cartState }) => {
         <img
           alt={productName}
           className="object-scale-down object-center w-full h-full block"
-          src={`http://localhost:8000${img}`}
+          src={img}
         />
       </a>
       <div className={`mt-5 flex ${cartState === 'add' ? 'justify-center' : 'justify-between items-center'}`}>
